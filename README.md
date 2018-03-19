@@ -5,9 +5,9 @@
 1. Almasa Festa
 2. Sara Halilović
 
-##Opis teme
-##Procesi
-##Funkcionalnosti
-##Akteri
+## Opis teme
+## Procesi
+## Funkcionalnosti
+## Akteri
 
 
