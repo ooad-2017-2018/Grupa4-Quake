@@ -18,27 +18,23 @@ gdje učestvuje osam najbolje rangiranih igrača.
 
 ## Procesi
 
-###*Registracija/Prijava*
-
+*Registracija/Prijava*
 Registracija se vrši upisom podataka u formu (ime, prezime, datum rođenja, JMBG, lozinka, email, broj telefona, adresa stanovanja, 
 broj računa, te odabir vrste igrača(profesionalni/rekreativni)). Korisnik može koristiti usluge aplikacije tek nakon što račun odobri 
 administrator. Verifikovani korisnik se prijavljuje na sistem unošenjem svog emaila i lozinke u formi za prijavu.
 
 
-###*Registracija/Zapošljavanje osoblja*
-
+*Registracija/Zapošljavanje osoblja*
 Registraciju, pregled, ažuriranje i brisanje novog osoblja obavlja administrator. 
 Registraciju/Zapošljavanje osoblja vrši administrator iz svoje forme, unoseći lične podatake, kao i podatake o plati zaposlenika.
 
 
-###*Rezervacija*
-
+*Rezervacija*
 Korisniku je omogućeno da putem aplikacije pronađe slobodan teren za određeni dan i nakon unosa informacija rezerviše isti. 
 Ukoliko se osoba koja je rezervisala teren ne pojavi nakon više od 15 minuta od početka termina, rezervisani termin(teren) se poništava. 
 Ukoliko se korisnik pojavi u zakazano vrijeme,zaposlenik potvrđuje rezervaciju i termin ostaje zauzet.
 
-###*Plaćanje*
-
+*Plaćanje*
 Postoje dva načina na koja korisnik može izvršiti plaćanje za dobivene usluge i to:
 1. koristeći aplikaciju
 2. lično
