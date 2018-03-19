@@ -10,7 +10,7 @@
 Opis teme
 Aplikacija Love Game za cilj ima olakšavanje interakcije svih članova teniskog kluba Love Game koristeći user-friendly
 interface. Igrači će biti u mogućnosti učlaniti se u klub ili u neki od ljetnih programa, rezervisati neki od teniskih 
-terena, zakazati trening na nekom od tenskih terena, kao i  koristiti on-line prijavu na internacionalna takmičenja, 
+terena, zakazati trening na nekom od teniskih terena, kao i  koristiti online prijavu na internacionalna takmičenja, 
 te imati pristup trenutnoj rang listi igrača kluba. 
 
 Također, aplikacija olakšava posao i uposlenicima kluba. Svaki trener će biti u mogućnosti kreirati grupe polaznika u 
