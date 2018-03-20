@@ -25,6 +25,7 @@ broj računa, te odabir vrste igrača(profesionalni/rekreativni)). Korisnik mož
 administrator. Verifikovani korisnik se prijavljuje na sistem unošenjem svog emaila i lozinke u formi za prijavu. 
 
 
+
 ###### Registracija/Zapošljavanje osoblja
 
 Registraciju, pregled, ažuriranje i brisanje novog osoblja obavlja administrator. 
@@ -45,6 +46,11 @@ Postoje dva načina na koja korisnik može izvršiti plaćanje za dobivene uslug
 
 Ukoliko se korisnik odluči na plaćanje koristeći aplikaciju, tada mu odabirom opcije za naplatu sistem izvršava naplaćivanje, te skida iznos usluge sa računa.  
 U svakom trenutku igrači i zaposleni mogu vidjeti koliko iznosi total koji treba platiti. 
+
+##### Formiranje i ediitovanje Sara Slam-a
+Svaka tri mjeseca zaposlenik moze kreirati turnir na osnovu rang liste. Raspored igranja turnira se kreira koristeći ITF pravila i metodom slučajnog izbora. 
+Također, samo zaposleni (sudija) unosi rezultate.
+
 
 
 ## Funkcionalnosti
