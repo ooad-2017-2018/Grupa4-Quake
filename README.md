@@ -47,9 +47,17 @@ Postoje dva načina na koja korisnik može izvršiti plaćanje za dobivene uslug
 Ukoliko se korisnik odluči na plaćanje koristeći aplikaciju, tada mu odabirom opcije za naplatu sistem izvršava naplaćivanje, te skida iznos usluge sa računa.  
 U svakom trenutku igrači i zaposleni mogu vidjeti koliko iznosi total koji treba platiti. 
 
-##### Formiranje i ediitovanje Sara Slam-a
+###### Formiranje i editovanje Sara Slam-a
+
 Svaka tri mjeseca zaposlenik moze kreirati turnir na osnovu rang liste. Raspored igranja turnira se kreira koristeći ITF pravila i metodom slučajnog izbora. 
 Također, samo zaposleni (sudija) unosi rezultate.
+
+###### Prijava na takmičenje/ Odjava sa takmičenja
+
+Mogućnost prijave na takmičenje imaju samo profesionalni igrači. Prijava na takmičenje se odobrava od strane zaposlenika, te u slučaju uspješne prijave dodaje se na 
+račun igrača cijena prijave. Ukoliko igrač se ne potvrdi prijavu 24h prije početka takmičenja prijava se poništava.
+
+
 
 
 
