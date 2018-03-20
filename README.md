@@ -49,7 +49,7 @@ U svakom trenutku igrači i zaposleni mogu vidjeti koliko iznosi total koji treb
 
 ###### Formiranje i editovanje Sara Slam-a
 
-Svaka tri mjeseca zaposlenik moze kreirati turnir na osnovu rang liste. Raspored igranja turnira se kreira koristeći ITF pravila i metodom slučajnog izbora. 
+Svaka tri mjeseca zaposlenik može kreirati turnir na osnovu rang liste. Raspored igranja turnira se kreira koristeći ITF pravila i metodom slučajnog izbora. 
 Također, samo zaposleni (sudija) unosi rezultate.
 
 ###### Prijava na takmičenje/ Odjava sa takmičenja
@@ -73,6 +73,7 @@ račun igrača cijena prijave. Ukoliko igrač se ne potvrdi prijavu 24h prije po
 - Mogućnost unosa bodova na rang listu
 - Plaćanje
 - Pregled/Editovanje rang liste
+- Kreiranje žrijeba za Sara-slam
 
 
 
