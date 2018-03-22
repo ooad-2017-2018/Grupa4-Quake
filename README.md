@@ -4,6 +4,7 @@
 Članovi Tima:
 1. Almasa Festa
 2. Sara Halilović
+3. Amina Fajić
 
 ## Opis teme
 
