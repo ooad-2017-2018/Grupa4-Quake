@@ -1,4 +1,5 @@
 ﻿# Grupa4-Quake
+
 ## TK Love Game
 
 Članovi Tima:
@@ -14,7 +15,7 @@ na nekom od slobodnih teniskih terena, kao i  koristiti online prijavu na intern
 rang listi igrača kluba. 
 
 Također, aplikacija olakšava posao i uposlenicima kluba. Svaki trener će biti u mogućnosti kreirati grupe polaznika u 
-par klikova, unositi bodove na rang liste, kao i formirati žrijeb za Sarita Slam koji se održava svaka tri mjeseca i 
+par klikova, unositi bodove na rang liste, kao i formirati žrijeb za Sara Slam koji se održava svaka tri mjeseca i 
 gdje učestvuje osam najbolje rangiranih igrača.
 
 ## Procesi
