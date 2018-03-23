@@ -62,6 +62,7 @@ Administrator na osnovu feedbacka od korisnika,donosi odluku o sankcijama zaposl
 
 Svaka tri mjeseca zaposlenik može kreirati turnir na osnovu rang liste. Raspored igranja turnira se kreira koristeći ITF pravila i metodom slučajnog izbora. 
 Također, samo zaposleni (sudija) unosi rezultate.
+Najboljeg igrača na SaraSlamu vlasnik aplikacije nagrađuje sa novčanim iznosom.
 
 ###### Prijava na takmičenje/ Odjava sa takmičenja
 
