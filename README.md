@@ -57,7 +57,7 @@ Također, samo zaposleni (sudija) unosi rezultate.
 ###### Prijava na takmičenje/ Odjava sa takmičenja
 
 Mogućnost prijave na takmičenje imaju samo profesionalni igrači. Prijava na takmičenje se odobrava od strane zaposlenika, te u slučaju uspješne prijave dodaje se na 
-račun igrača cijena prijave. Ukoliko igrač se ne potvrdi prijavu 24h prije početka takmičenja prijava se poništava.
+račun igrača cijena prijave. Ukoliko igrač se ne potvrdi prijavu 24h prije početka takmičenja prijava se poništava.Također,igrač može da ostavi feedback o terenu u kojem opisuje da li je zadovoljan sa uslovima terena,trenerom itd.
 
 
 
