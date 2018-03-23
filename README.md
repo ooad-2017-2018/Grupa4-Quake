@@ -1,5 +1,5 @@
 ﻿# Grupa4-Quake
-
+![](https://user-images.githubusercontent.com/37187803/37832411-cda4df7e-2ea8-11e8-93f5-509d62fbbf44.jpg)
 ## TK Love Game
 
 Članovi Tima:
