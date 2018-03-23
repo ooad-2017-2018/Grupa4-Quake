@@ -55,6 +55,8 @@ Postoje dva načina na koja korisnik može izvršiti plaćanje za dobivene uslug
 
 Ukoliko se korisnik odluči na plaćanje koristeći aplikaciju, tada mu odabirom opcije za naplatu sistem izvršava naplaćivanje, te skida iznos usluge sa računa.  
 U svakom trenutku igrači i zaposleni mogu vidjeti koliko iznosi total koji treba platiti. 
+###### Otpuštanje radnika
+Administrator na osnovu feedbacka od korisnika,donosi odluku o sankcijama zaposlenih lica i eventualno njihovom otpuštanju zbog nedoličnog ponašanja,ako feedback bude negativan.S druge strane,ako feedback bude pozitivan,administrator može nagraditi zaposleno lice.Također pod ovim procesom se podrazumijeva i uvid administratora u održavanje teniskih terena.
 
 ###### Formiranje i editovanje Sara Slam-a
 
