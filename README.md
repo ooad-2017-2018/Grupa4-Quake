@@ -71,6 +71,7 @@ račun igrača cijena prijave. Ukoliko igrač se ne potvrdi prijavu 24h prije po
 - Ažuriranje i brisanje korisničkih računa za igrače od strane administratora
 - Prijava na sistem sa korisničkim računom za različite vrste korisnika 
 - Rezervacija teniskih terena
+- Ostavljanje feedbacka od strane korisnika
 - Prijava na takmičenje
 - Mogućnost unosa bodova na rang listu
 - Plaćanje
