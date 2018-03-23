@@ -4,11 +4,6 @@
 </p>
 
 ## TK Love Game
-
-<p align="center">
-  <img width="300" height="200" src="https://user-images.githubusercontent.com/37187803/37838620-af3e3e80-2eb8-11e8-9a23-6766dd7078d6.jpg">
-</p>
-
 Članovi Tima:
 1. Almasa Festa
 2. Sara Halilović
@@ -58,7 +53,11 @@ U svakom trenutku igrači i zaposleni mogu vidjeti koliko iznosi total koji treb
 ###### Otpuštanje radnika
 Administrator na osnovu feedbacka od korisnika,donosi odluku o sankcijama zaposlenih lica i eventualno njihovom otpuštanju zbog nedoličnog ponašanja,ako feedback bude negativan.S druge strane,ako feedback bude pozitivan,administrator može nagraditi zaposleno lice.Također pod ovim procesom se podrazumijeva i uvid administratora u održavanje teniskih terena.
 
+
 ###### Formiranje i editovanje Sara Slam-a
+<p align="center">
+  <img width="300" height="200" src="https://user-images.githubusercontent.com/37187803/37852178-f26426a6-2ee1-11e8-9e00-c799c47e7343.gif">
+</p>
 
 Svaka tri mjeseca zaposlenik može kreirati turnir na osnovu rang liste. Raspored igranja turnira se kreira koristeći ITF pravila i metodom slučajnog izbora. 
 Također, samo zaposleni (sudija) unosi rezultate.
