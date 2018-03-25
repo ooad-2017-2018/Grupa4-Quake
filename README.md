@@ -50,8 +50,10 @@ Postoje dva načina na koja korisnik može izvršiti plaćanje za dobivene uslug
 
 Ukoliko se korisnik odluči na plaćanje koristeći aplikaciju, tada mu odabirom opcije za naplatu sistem izvršava naplaćivanje, te skida iznos usluge sa računa.  
 U svakom trenutku igrači i zaposleni mogu vidjeti koliko iznosi total koji treba platiti. 
+
 ###### Otpuštanje radnika
-Administrator na osnovu feedbacka od korisnika,donosi odluku o sankcijama zaposlenih lica i eventualno njihovom otpuštanju zbog nedoličnog ponašanja,ako feedback bude negativan.S druge strane,ako feedback bude pozitivan,administrator može nagraditi zaposleno lice.Također pod ovim procesom se podrazumijeva i uvid administratora u održavanje teniskih terena.
+Administrator na osnovu feedbacka od korisnika,donosi odluku o sankcijama zaposlenih lica i 
+eventualno njihovom otpuštanju zbog nedoličnog ponašanja,ako feedback bude negativan.S druge strane,ako feedback bude pozitivan,administrator može nagraditi zaposleno lice.Također pod ovim procesom se podrazumijeva i uvid administratora u održavanje teniskih terena.
 
 
 ###### Formiranje i editovanje Sara Slam-a
@@ -95,6 +97,6 @@ račun igrača cijena prijave. Ukoliko igrač se ne potvrdi prijavu 24h prije po
 Samo profesionalni igrači imaju mogućnost prijave na takmičenje, te učestvovanje na Sara Slam-u.
 
 2. Zaposlenik- osoba koja radi za TK Love Game. Zaposlenici imaju mogućnost odobravanja zakazanih termina i treninga, unosa bodova za igrače,editovanje rang liste, 
-te kreiranje Sarita Slam-a.
+te kreiranje Sara Slam-a.
 
 3. Administrator- Administrator ima mogućnost zapošljavanja radnika, otpuštanja radnika, odobravanja korisničkog računa.
