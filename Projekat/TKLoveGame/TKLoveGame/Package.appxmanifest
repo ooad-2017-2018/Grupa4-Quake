@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="15b054e1-89ea-49e0-b96a-2b8622344206"
+    Name="b8887392-b269-4d42-b97b-634a759a9655"
     Publisher="CN=Almasa"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="15b054e1-89ea-49e0-b96a-2b8622344206" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="b8887392-b269-4d42-b97b-634a759a9655" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>TKLoveGame</DisplayName>
