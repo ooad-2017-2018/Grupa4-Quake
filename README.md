@@ -52,9 +52,7 @@ Ukoliko se korisnik odluči na plaćanje koristeći aplikaciju, tada mu odabirom
 U svakom trenutku igrači i zaposleni mogu vidjeti koliko iznosi total koji treba platiti. 
 
 ###### Otpuštanje radnika
-Administrator na osnovu feedbacka od korisnika,donosi odluku o sankcijama zaposlenih lica i 
-eventualno njihovom otpuštanju zbog nedoličnog ponašanja,ako feedback bude negativan.S druge strane,ako feedback bude pozitivan,administrator može nagraditi zaposleno lice.Također pod ovim procesom se podrazumijeva i uvid administratora u održavanje teniskih terena.
-
+Administrator ima mogućnost zapošljavanja, ali i otpuštanja radnika. 
 
 ###### Formiranje i editovanje Sara Slam-a
 <p align="center">
@@ -68,8 +66,7 @@ Najboljeg igrača na SaraSlamu vlasnik aplikacije nagrađuje sa novčanim iznoso
 ###### Prijava na takmičenje/ Odjava sa takmičenja
 
 Mogućnost prijave na takmičenje imaju samo profesionalni igrači. Prijava na takmičenje se odobrava od strane zaposlenika, te u slučaju uspješne prijave dodaje se na 
-račun igrača cijena prijave. Ukoliko igrač se ne potvrdi prijavu 24h prije početka takmičenja prijava se poništava.Također,igrač može da ostavi feedback o terenu u kojem opisuje da li je zadovoljan sa uslovima terena,trenerom itd.
-
+račun igrača cijena prijave.
 
 
 
@@ -79,10 +76,8 @@ račun igrača cijena prijave. Ukoliko igrač se ne potvrdi prijavu 24h prije po
 - Kreiranje korisničkog računa
 - Kreiranje korisničkog računa za zaposlenike od strane administratora
 - Ažuriranje i brisanje korisničkih računa za zaposlenike od strane administratora
-- Ažuriranje i brisanje korisničkih računa za igrače od strane administratora
 - Prijava na sistem sa korisničkim računom za različite vrste korisnika 
 - Rezervacija teniskih terena
-- Ostavljanje feedbacka od strane korisnika
 - Prijava na takmičenje
 - Mogućnost unosa bodova na rang listu
 - Plaćanje
