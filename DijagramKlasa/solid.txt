@@ -1,0 +1,14 @@
+##Princip 1 - Single Responsibility Principle (S):
+S- u velikom djelu ispoštovan, svaka klasa ima metode koji su vezani za nju.
+
+##Princip 2 - Open Closed Principle (O):
+O- Drugi solid princip je ispoštovan. On nalaže da su klase otvorene za nadogradnju a zatvorene za modifikaciju. U našim klasama je ovaj princip ispoštovan zato što je moguca nadogradnja na klase, ali modifikacije nisu potrebne zbog same strukture klasa i metoda koje su u njima implementirane. 
+
+##Princip 3 - Liskov Substitution Principle (L):
+L- je ispoštovan. imamo baznu klasu Igrac iz koje su naslijedene klase Profesionalni i Rekreativni i sve metode koje su direktno naslijedene iz klase Korisnik se mogu opravdano koristiti i u naslijedenim klasama. Dakle podtipovi su zamjenjivi osnovnim tipovima.
+
+##Princip 4 - Dependency Inversion Principle (D):
+D- je ispoštovan. Izbjegavala se ovisnost od konkretnih klasa u razvoju. Glavna klasa iz koje vršimo nasljedivanje, klasa Igrac je implementirana kao apstraktna klasa, te ukoliko je potrebno dodavati nove tipove Igraca možemo ih jednostavno izvesti iz ove klase bez modifikacija same klase Igrac.
+
+##Princip 5 - Interface Segregation Principle (I):
+I-Ovaj princip govori da klase ne trebaju biti opterecene metodama koje ih se ne ticu tj. koje se nece koristiti od strane te klase. Klase implementirane u ovom projektu su struktuirane tako da imaju implementirane samo one metode koje su zaista potrebne i koje se koriste, bez bespotrebnih komplikacija. Igrac ne ovisi o metodama koje ne koristi.
