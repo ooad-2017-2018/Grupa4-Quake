@@ -96,6 +96,11 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="Administrator.cs" />
+    <Compile Include="Mec.cs" />
+    <Compile Include="Rezervacija.cs" />
+    <Compile Include="SaraSlam.cs" />
+    <Compile Include="Takmicenje.cs" />
+    <Compile Include="Teren.cs" />
     <Compile Include="TKLoveGame.cs" />
     <Compile Include="Profesionalni.cs" />
     <Compile Include="Rekreativni.cs" />

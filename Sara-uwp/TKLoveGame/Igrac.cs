@@ -18,17 +18,7 @@ namespace TKLoveGame
         private int br_rundi;
         private static int counter_igraci=1;
 
-        public Igrac(String ime, String prezime, String username, String password, String email, DateTime datumRodjenja)
-        {
-            Ime = ime;
-            Prezime = prezime;
-            Datum_rodjenja = datumRodjenja;
-            IdIgraca = Ime[0]+Prezime[0]+counter_igraci.ToString();
-            counter_igraci++;
-            Username = username;
-            Password = password;
-            br_rundi = 0;
-        }
+        
 
         public String Ime
         {
@@ -65,7 +55,17 @@ namespace TKLoveGame
             set { password = value; }
         }
 
-
+        public Igrac(String ime, String prezime, String username, String password, String email, DateTime datumRodjenja)
+        {
+            Ime = ime;
+            Prezime = prezime;
+            Datum_rodjenja = datumRodjenja;
+            IdIgraca = Ime[0] + Prezime[0] + counter_igraci.ToString();
+            counter_igraci++;
+            Username = username;
+            Password = password;
+            br_rundi = 0;
+        }
 
     }
 
