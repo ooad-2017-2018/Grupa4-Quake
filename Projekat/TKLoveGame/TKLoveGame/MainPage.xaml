@@ -9,9 +9,9 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock x:Name="___Logo_" HorizontalAlignment="Left" Margin="1,38,-69,0" Text="TKLoveGame" TextWrapping="Wrap" VerticalAlignment="Top" SelectionChanged="TextBlock_SelectionChanged" Height="180" Width="500" FontSize="72">
-            <TextBlock.FocusVisualPrimaryBrush>
-                <ImageBrush/>
-            </TextBlock.FocusVisualPrimaryBrush>
+           
+               
+            
         </TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="46,206,0,0" Text="Korisnicko ime:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" Width="283"/>
         <TextBlock HorizontalAlignment="Left" Margin="74,280,0,0" Text="Lozinka:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
