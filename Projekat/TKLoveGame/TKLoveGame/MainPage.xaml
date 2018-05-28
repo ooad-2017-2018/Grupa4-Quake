@@ -17,7 +17,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="74,280,0,0" Text="Lozinka:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24"/>
         <TextBox HorizontalAlignment="Left" Margin="230,212,0,0" Text="" VerticalAlignment="Top" Width="186"/>
         <TextBox HorizontalAlignment="Left" Margin="230,280,0,0" Text="" VerticalAlignment="Top" Width="186"/>
-        <Button Content="Prijava" HorizontalAlignment="Left" Margin="182,494,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="201" d:LayoutRounding="Auto">
+        <Button Content="Prijava" HorizontalAlignment="Left" Margin="182,494,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Width="201" d:LayoutRounding="Auto" Click="Button_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="1.129"/>
             </Button.RenderTransform>
