@@ -17,6 +17,7 @@ U našem projektu:
 Nije upotrijebljen.
 Dobro mjesto za upotrebu:
 Tipa ako bi aplikaciju namijenili samo jednoj firmi,onda bi TKlovegame kao glavna klasa trebala da koristi singleton pattern.
+
 2.Prototype pattern 
 Definicija:Uloga Prototype paterna je da kreira nove objekte klonirajuæi jednu od postojeæih prototip
 instanci (postojeæi objekat). Ako je trošak kreiranja novog objekta velik i kreiranje objekta je
@@ -33,6 +34,7 @@ U našem projektu:
 Ne.
 Dobro mjesto za upotrebu:
 Kloniranje podataka iz baze radi nekog istraživanja i statistike,tipa kloniranje korisnika,terena itd- za izvjestaj o radu firme.
+
 3.Factory Method Pattern 
 Definicija:Uloga Factory Method paterna je da omoguæi kreiranje objekata na naèin da podklase odluèe
 koju klasu instancirati. Razlièite podklase mogu na razlièite naèine implementirati interfejs.
@@ -47,3 +49,43 @@ U našem projektu?
 Ne.
 Dobro mjesto za upotrebu?
 Kod rezervacije ,u zavisnosti od mišljenja rekreacionog igraca,da se instancira nova klasa Mec.
+
+4. State Pattern
+Definicija: Uloga State Pattern-a je da mijenja nacin ponašanja na osnovu trenutnog stanja.
+Isti se postiže promjenom podklase unutar hijerarhije klasa. Ovaj patern lokalizira svako stanje u posebnu klasu, 
+uklanja probleme sa razbacanim if iskazima u programu koji bi se koristili za ispitivanje koje je stanje, 
+podržava Otvoren-Zatvoren princip.
+Kako se koristi?
+Osnovni elementi ovog paterna su: Context koji definira tekuci kontekst i interface koji je u interesu klijenta i održava instancu stanja,
+IState interfejs koji definiše ponašanje svih mogucih stanja klijenta
+StateA, StateBklase koje mplementiraju konkretno stanje objekta. Svako stanje je predstavljeno jednom konkretnom klasom.
+U našem projektu? 
+Da, nemogucnost prijave na neka takmicenja, nemogucnost rezervisanje termina i sl. 
+
+5.Composite Pattern
+Definicija: Spada u strukturalne paterne. Osnovna namjena Composite paterna je da omoguci formiranje strukture stabla pomocu klasa, 
+u kojoj se individualni objekti i kompozicije individualnih objekata jednako tretiraju.
+Kako se koristi?
+Osnovni elementi ovog paterna su: Client klasa koja manipulira objektima u kompoziciji preko IComponent 
+interfejsa, IComponent je interfejs koji implementira operacije za objekte u kompoziciji i defaultno 
+ponašanje koje je zajednicko za objekte oba tipa, Component intefejs koji implementira klase za osnovne
+objekte, Composite interfejs koji je primjenjiv na kompozitne objekte, korištenjem implementacije za 
+pojedinacne komponente.
+U našem projektu? 
+Ne.
+Dobro mjesto za upotrebu?
+U našem projektu ovaj patern bi se mogao primijenti tako što bismo "razbili" neku komponentu, npr. termin, takmicenje itd. 
+
+6. Decorator Pattern 
+Definicija: Spada u strukturalne paterne. Osnovna namjena istog je da omoguci dinamicko dodavanje novih 
+elemenata i ponašanja postojecim objektima.
+Kako se korisiti?
+Osnovni elementi su: Component je klasa koja sadrži interfejs koji se može mijenjati ili mu se mogu 
+dinamicki dodati operacije, IComponent je interfejs koji identificira klase objekata koji trebaju biti 
+dekorisani, Decorator je klasa koja odgovara IComponent interfejsu i implementira dinamicki prošireni interfejs.
+U našem projektu?
+Ne.
+Dobro mjesto za upotrebu?
+U našem projektu, ovaj patern bi se mogao iskoristiti recimo za odredivanje cijena termina, tj. ako dode do
+promjene cijene, da se i ostale cijene dinamicki mijenjaju. 
+
