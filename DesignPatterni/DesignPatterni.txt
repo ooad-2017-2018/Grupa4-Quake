@@ -1,0 +1,123 @@
+1.Singleton pattern
+Definicija:Uloga Singleton paterna je da osigura da se klasa može instancirati samo jednom i da osigura
+globalni pristup kreiranoj instanci klase. Postoji više objekata koje je potrebno samo jednom
+instancirati i nad kojim je potrebna jedinstvena kontrola pristupa. Neki od njih su: thread
+pools (skupina niti), objekti koji upravljaju setovanjem registara, objekti koji se koriste za
+logiranje, objekti koji se koriste kao drajveri za razne ureðaje kao što su printeri i grafièke
+kartice. 
+Kako se koriste?
+Primjer upotrebe:
+-kreiramo klasu koja može imati samo jednu instancu
+-Postavljanje privatne vidljivosti za konstruktor i dodavanje privatnog static konstruktora.
+-Dodavanje privatnog static read-only objekta koji se interno instancira korištenjem
+privatnog konstruktora.
+-Dodavanje javno vidljive osobine ( public static property) ili metode koja pristupa
+privatnom objektu i instancira ga ako objekat veæ ne postoji.
+U našem projektu:
+Nije upotrijebljen.
+Dobro mjesto za upotrebu:
+Tipa ako bi aplikaciju namijenili samo jednoj firmi,onda bi TKlovegame kao glavna klasa trebala da koristi singleton pattern.
+
+2.Prototype pattern 
+Definicija:Uloga Prototype paterna je da kreira nove objekte klonirajuæi jednu od postojeæih prototip
+instanci (postojeæi objekat). Ako je trošak kreiranja novog objekta velik i kreiranje objekta je
+resursno zahtjevno tada se vrši kloniranje veæ postojeæeg objekata. 
+Kako se koristi?
+Postoje dva naèina implementacije Prototypes paterna: shallow (površinsko) i deep(duboko)
+kloniranje (kopiranje). Površinsko kloniranje se u C# izvršava korištenjem
+Object.MemberWiseClone metode. MemberwiseClone metoda je raspoloživa za sve
+objekte. Kopira sva polja i reference objekta i vraæa referencu na kopiju. Meðutim ne kopira
+objekte na koje reference u objektima pokazuju. Sa dubokim kopiranjem/kloniranjem
+kopiraju se svi podobjekti. U svrhu implementacije dubokog kopiranja C# koristi
+serijalizaciju. 
+U našem projektu:
+Ne.
+Dobro mjesto za upotrebu:
+Kloniranje podataka iz baze radi nekog istraživanja i statistike,tipa kloniranje korisnika,terena itd- za izvjestaj o radu firme.
+
+3.Factory Method Pattern 
+Definicija:Uloga Factory Method paterna je da omoguæi kreiranje objekata na naèin da podklase odluèe
+koju klasu instancirati. Razlièite podklase mogu na razlièite naèine implementirati interfejs.
+Factory Method instancira odgovarajuæu podklasu(izvedenu klasu) preko posebne metode na
+osnovu informacije od strane klijenta ili na osnovu tekuæeg stanja.
+Kako se koristi?
+Osnovni elementi Factory Method paterna su: IProduct – interfejs za produkte; ProductA,
+ProductB klase koje implementiraju interfejs; Creator klasa posjeduje FactoryMethod()
+metodu; FactoryMethod() metoda odluèuje koju klasu instancirati. Klijent može imati više
+od jednog kreatora za razlièite tipove produkata. 
+U našem projektu?
+Ne.
+Dobro mjesto za upotrebu?
+Kod rezervacije ,u zavisnosti od mišljenja rekreacionog igraca,da se instancira nova klasa Mec.
+
+4. State Pattern
+Definicija: Uloga State Pattern-a je da mijenja nacin ponašanja na osnovu trenutnog stanja.
+Isti se postiže promjenom podklase unutar hijerarhije klasa. Ovaj patern lokalizira svako stanje u posebnu klasu, 
+uklanja probleme sa razbacanim if iskazima u programu koji bi se koristili za ispitivanje koje je stanje, 
+podržava Otvoren-Zatvoren princip.
+Kako se koristi?
+Osnovni elementi ovog paterna su: Context koji definira tekuci kontekst i interface koji je u interesu klijenta i održava instancu stanja,
+IState interfejs koji definiše ponašanje svih mogucih stanja klijenta
+StateA, StateBklase koje mplementiraju konkretno stanje objekta. Svako stanje je predstavljeno jednom konkretnom klasom.
+U našem projektu? 
+Da, nemogucnost prijave na neka takmicenja, nemogucnost rezervisanje termina i sl. 
+
+5.Composite Pattern
+Definicija: Spada u strukturalne paterne. Osnovna namjena Composite paterna je da omoguci formiranje strukture stabla pomocu klasa, 
+u kojoj se individualni objekti i kompozicije individualnih objekata jednako tretiraju.
+Kako se koristi?
+Osnovni elementi ovog paterna su: Client klasa koja manipulira objektima u kompoziciji preko IComponent 
+interfejsa, IComponent je interfejs koji implementira operacije za objekte u kompoziciji i defaultno 
+ponašanje koje je zajednicko za objekte oba tipa, Component intefejs koji implementira klase za osnovne
+objekte, Composite interfejs koji je primjenjiv na kompozitne objekte, korištenjem implementacije za 
+pojedinacne komponente.
+U našem projektu? 
+Ne.
+Dobro mjesto za upotrebu?
+U našem projektu ovaj patern bi se mogao primijenti tako što bismo "razbili" neku komponentu, npr. termin, takmicenje itd. 
+
+6. Decorator Pattern 
+Definicija: Spada u strukturalne paterne. Osnovna namjena istog je da omoguci dinamicko dodavanje novih 
+elemenata i ponašanja postojecim objektima.
+Kako se korisiti?
+Osnovni elementi su: Component je klasa koja sadrži interfejs koji se može mijenjati ili mu se mogu 
+dinamicki dodati operacije, IComponent je interfejs koji identificira klase objekata koji trebaju biti 
+dekorisani, Decorator je klasa koja odgovara IComponent interfejsu i implementira dinamicki prošireni interfejs.
+U našem projektu?
+Ne.
+Dobro mjesto za upotrebu?
+U našem projektu, ovaj patern bi se mogao iskoristiti recimo za odredivanje cijena termina, tj. ako dode do
+promjene cijene, da se i ostale cijene dinamicki mijenjaju. 
+
+
+7. Interpreter pattern
+U dobro strukturiranom okruženju cesto dolazi do razlicitih problema, koji bi bili lako rješivi kada bi se samo okruženje (domen) moglo opisati nekim 'jezikom'. 
+Tada bi interpreter tog jezika mogao lako da riješi probleme koji se javljaju.
+
+Kako se koristi:
+Interpreter pattern služi za evaluiranje gramatike nekog jezika i jezickih izraza. Implementira se AbstractExpression 
+interface koji koristi kompozitni pattern da bi riješio neki jezicki problem. 
+Obicno se koriste TerminalExpression i CompoundExpression klase koje služe za rekurzivno rješavanje problema interpretacije nekog jezickog 
+izraza gdje je CompoundExpression neki dio pravila koji poziva drugo pravilo za obradu izraza, dok je TerminalExpression bazni slucaj za 
+neko pravilo.
+
+Dobro mjesto za upotrebu:
+Može se koristiti za provjeru validnosti passworda prilikom registracije ili prijave (dovoljna dužina passworda, upotreba dozvoljenih simbola... )
+
+8. Observer pattern
+Uloga Observer paterna je da uspostavi relaciju izmedu objekata tako kada jedan objekat promijeni stanje, drugi zainteresirani objekti se obavještavaju.
+
+Kako se koristi?
+Subject klasa sadrži privatni dogadaj (private event) Notify. Kada se njegovo stanje promijeni on aktivira dogadaj (event) i šalje svoje stanje kao parametar 
+Update metodi unutar Observer klase (metoda mora biti prije registrirana na Subject klasu). Može biti više razlicitih posmatraca sa svojim Update metodama.
+
+Dobro mjesto za upotrebu:
+Može se koristiti za obavještavanje igraca o potvrdenoj rezervaciji.
+
+9.Iterator pattern
+Omogucava sekvencijalni pristup elementima kolekcije bez poznavanja kako je kolekcija strukturirana.
+
+Kako se koristi?
+U C#-u se koristi interfejs –IEnumerable i njegova metoda GetEnumerator u okviru System.Collections.
+GetEnumerator se automatski ukljucuje uokviru foreach iskaza.
+
