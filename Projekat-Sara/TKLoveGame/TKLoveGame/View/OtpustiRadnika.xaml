@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="TKLoveGame.OtpustiRadnika"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TKLoveGame"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Frame Name="OtpustiiFrame">
+        <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <TextBlock HorizontalAlignment="Left" Margin="74,68,0,0" Text="Unesite korisnicko ime zaposlenika:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"/>
+            <TextBlock HorizontalAlignment="Left" Margin="74,141,0,0" Text="Datum otpusta:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="15"/>
+
+            <DatePicker HorizontalAlignment="Left" VerticalAlignment="Top" Margin="355,148,0,0" FontSize="10" MinWidth="100" MinHeight="10" Height="34" Width="186"/>
+            <Button Content="Nazad/Odjava" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="12" Margin="248,225,0,0" Click="Button_Click"/>
+             <Button Content="Otpusti radnika" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="12" Margin="355,225,0,0" Click="Button_Click_1"/>
+            <TextBox x:Name="userIme" HorizontalAlignment="Left" Margin="355,68,0,0" Text="" VerticalAlignment="Top" Width="186" />
+
+
+        </Grid>
+    </Frame>
+</Page>
+
+
